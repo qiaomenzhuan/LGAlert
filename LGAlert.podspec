@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LGAlert"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "iOS自定义弹窗"
   spec.description  = <<-DESC
   TODO: 这是一个自定义弹窗
