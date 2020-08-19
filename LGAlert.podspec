@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "yanglei" => "18500123278@163.com" }
   spec.social_media_url   = "https://github.com/qiaomenzhuan"
   spec.platform     = :ios
+  spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/qiaomenzhuan/LGAlert.git", :tag => "#{spec.version}" }
   spec.source_files  = 'LEIAlert'
   spec.exclude_files = "Classes/Exclude"
