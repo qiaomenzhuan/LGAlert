@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LGAlert"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "iOS自定义弹窗"
   spec.description  = <<-DESC
   TODO: 这是一个自定义弹窗
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "yanglei" => "18500123278@163.com" }
   spec.social_media_url   = "https://github.com/qiaomenzhuan"
-  spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/qiaomenzhuan/LGAlert.git", :tag => "#{spec.version}" }
   spec.source_files  = 'LEIAlert'
